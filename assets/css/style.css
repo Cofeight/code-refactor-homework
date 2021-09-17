@@ -48,8 +48,14 @@ body {
     margin-left: 25px;
 }
 
-/*this defines the link parameters */
-a {
+
+.links {
+    color: #0072bb;
+    text-decoration: none;
+}
+
+/*this defines the first link parameters */
+ a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -59,7 +65,7 @@ p {
     font-size: 16px;
 }
 
-/*this defines the parameters of the main image*/
+/*this defines the parameters of the main image. Without moving the background-image to index.html, I'm not sure how to add the alt description*/
 .hero {
     height: 800px;
     width: 100%;
@@ -67,6 +73,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    
 }
 
 /*this defines the float/margin of linked sections*/
@@ -145,4 +152,12 @@ p {
 /*this defines the footer font size*/
 .footer h2 {
     font-size: 20px;
+    font: black;
+}
+
+/*this defines the author's link. black font command not working*/
+.gitlink {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font: black;
 }
